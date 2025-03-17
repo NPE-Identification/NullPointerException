@@ -6,6 +6,55 @@
 
 LLM-Based Identification of Null Pointer Exception Patches This repo uses Large Language Models (LLMs) to identify and classify Null Pointer Exception (NPE) patches in code commits, combining contextual embeddings and AST features for automated NPE detection and fix classification in software development.
 
+# Augmented Agentic Commit Classification (AACC)  
+## Detecting and Classifying Null Pointer Exception (NPE) Fixes  
+
+![AACC Proposed Approach](AACC_Proposed_Approach.png)  
+
+## 🚀 Overview  
+
+Null Pointer Exceptions (**NPEs**) are one of the primary causes of **software crashes** and **runtime errors**, making them a significant challenge for developers.  
+
+Existing approaches for detecting and classifying NPE-related fixes often suffer from:  
+- **Noisy or irrelevant data**  
+- **Lack of contextual understanding**  
+- **Inefficient processing of large and imbalanced datasets**  
+
+To overcome these limitations, we introduce **Augmented Agentic Commit Classification (AACC)** — a novel method designed to accurately classify commit patches as **NPE fixes or non-NPE**.  
+
+📊 **Performance Boost**: Our evaluation using **ChatGPT-4o** shows that AACC **outperforms state-of-the-art models**, improving the **F1 score from 72.07% to 98.03%**.
+
+---
+
+## 🔑 Key Features  
+
+AACC incorporates four major advancements to enhance the detection of NPE fixes:  
+
+### ✅ Best Example Selection  
+- Filters **high-quality, contextually relevant commits**, ensuring the model learns from meaningful and accurate data.  
+
+### 📚 Augmented Knowledge Base  
+- Combines **contextual metadata, program semantics, and bug-fix patterns** for enriched classification.  
+
+### 🎯 Prioritize Agent  
+- **Ranks commits based on relevance and impact**, optimizing resource allocation and improving classification efficiency.  
+
+### 🔄 Iterative Refinement Process  
+- Uses **feedback loops** to **learn from misclassifications**, reducing false negatives and improving overall accuracy.  
+
+---
+
+## 📁 Folder Structure  
+
+
+
+
+
+
+
+
+
+
 ## Project Overview
 The objective of this project is to provide a novel approach to detecting data contamination in deep learning models. By leveraging the **naturalness** of source code and combining it with the model’s performance, this approach significantly outperforms traditional methods for detecting whether a piece of code has been used for model training.
 ## Features
