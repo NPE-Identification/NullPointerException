@@ -44,18 +44,27 @@ AACC incorporates four major advancements to enhance the detection of NPE fixes:
 📦 AACC/ │── 📂 Dataset/ # Labeled datasets for training, testing and evaluation │ ├── 📝 NPEPatches.json # commit patches and messages, stack trace and meta data of commits │ ├── 📝 preprocessed.json # Cleaned and structured dataset │ ├── 📝 labeled_data # Human-annotated NPE-fixes and non-NPE commits │ │── 📂 Baselines_Evaluation/ # Comparative evaluation of AACC vs. existing approaches │ ├── 📜 models/ # Implementations of baseline models │ ├── 📜 performance_metrics/ # F1 scores, accuracy, and comparative results │ ├── 📜 evaluation_scripts/ # Python scripts for evaluation │ │── 📂 LLMS/ # LLM-based classification models and components │ ├── 🤖 fine_tuned_models/ # Pre-trained models adapted for NPE classification │ ├── 📝 prompt_engineering/ # Strategies and examples for LLM-based classification │ ├── 📜 inference_scripts/ # Scripts to classify new commit patches │ │── 📜 run_classification.py # Main script to run AACC classification │── 📜 requirements.txt # Required dependencies │── 📜 README.md # Project documentation
 
 ---
-📌 Requirements
-To run the Augmented Agentic Commit Classification (AACC) project, you need to have the following dependencies installed. These dependencies can be easily installed using pip.
+## ⚙️ Getting Started  
+## 📌 Requirements  
 
-🖥️ System Requirements
-Python 3.8 or higher
-📦 Python Libraries
-torch: Required for PyTorch-based model embeddings and deep learning operations.
-transformers: Provides pre-trained language models for commit classification.
-sentence-transformers: Used for generating contextual embeddings of commit messages.
-pandas: Used for reading, processing, and handling structured datasets.
-scikit-learn: Provides machine learning utilities for classification and evaluation.
-openai: Required to interact with OpenAI models like ChatGPT-4o for enhanced commit analysis.
+To run the **Augmented Agentic Commit Classification (AACC)** project, you need to have the following dependencies installed. These dependencies can be easily installed using `pip`.  
+
+### 🖥️ System Requirements  
+- **Python 3.8 or higher**  
+
+### 📦 Python Libraries  
+- **torch**: Required for PyTorch-based model embeddings and deep learning operations.  
+- **transformers**: Provides pre-trained language models for commit classification.  
+- **sentence-transformers**: Used for generating contextual embeddings of commit messages.  
+- **pandas**: Used for reading, processing, and handling structured datasets.  
+- **scikit-learn**: Provides machine learning utilities for classification and evaluation.  
+- **openai**: Required to interact with OpenAI models like **ChatGPT-4o** for enhanced commit analysis.  
+
+### 📥 Installation  
+To install all dependencies, run:  
+```bash
+pip install -r requirements.txt
+
 
 
 
