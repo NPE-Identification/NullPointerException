@@ -1,6 +1,6 @@
 
 
-# Replication package for paper "Has My Code Been Stolen for Model Training? A Naturalness-Based Approach to Code Contamination Detection"
+# Replication package for paper "LLM-Based Identification of Null Pointer Exception Patches"
 
 ![AACC Proposed Approach](AACC%20Proposed%20Approach.png)
 
