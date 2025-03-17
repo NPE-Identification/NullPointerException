@@ -59,11 +59,25 @@ To run the **Augmented Agentic Commit Classification (AACC)** project, you need 
 - **pandas**: Used for reading, processing, and handling structured datasets.  
 - **scikit-learn**: Provides machine learning utilities for classification and evaluation.  
 - **openai**: Required to interact with OpenAI models like **ChatGPT-4o** for enhanced commit analysis.  
+- **anthropic**: Used to interact with **Claude Sonnet** for advanced language processing.  
+- **groq**: Required for using **DeepSeek-r1** and **Llama** models via Groq API.  
 
-### 📥 Installation  
-To install all dependencies, run:  
+### 🌐 API Keys  
+This project integrates multiple **LLMs** for commit classification. Ensure you have API keys set up for:  
+
+- **Groq API** (`GROQ_API_KEY`) → Supports **DeepSeek-r1** and **Llama** models.  
+- **OpenAI API** (`OPENAI_API_KEY`) → Used for **ChatGPT-4o** and other OpenAI models.  
+- **Gemini API** (`GEMINI_API_KEY`) → Required for Google’s **Gemini AI**.  
+- **Anthropic API** (`ANTHROPIC_API_KEY`) → Used for **Claude Sonnet**.  
+
+Store these keys in your environment variables or in a `.env` file for secure access.
+
 ```bash
-pip install -r requirements.txt
+export GROQ_API_KEY="your-groq-api-key-here"
+export OPENAI_API_KEY="your-openai-api-key-here"
+export GEMINI_API_KEY="your-gemini-api-key-here"
+export ANTHROPIC_API_KEY="your-anthropic-api-key-here"
+
 
 
 
