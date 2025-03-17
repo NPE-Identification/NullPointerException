@@ -99,8 +99,6 @@ export ANTHROPIC_API_KEY="your-anthropic-api-key-here"
 
 This section provides an overview of the repository structure, including datasets, and the source code of the Code Completion models: [Dataset](https://drive.google.com/file/d/1PQ-7OXFEPbbS-mbG9dO2Fm6dcFSjpCug/view?usp=sharing), [Baseline evaluation models](https://github.com/NPE-Identification/NullPointerException/tree/main/Baselines), [LLMs](https://github.com/NPE-Identification/NullPointerException/tree/main/LLM_based_evaluations)
 
-https://drive.google.com/file/d/1PQ-7OXFEPbbS-mbG9dO2Fm6dcFSjpCug/view?usp=sharing
-
 ## Download Dataset
 
 Due to size limits, the dataset has been uploaded to Google Drive. You can download the dataset using the following link:
