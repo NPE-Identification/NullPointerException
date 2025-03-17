@@ -44,21 +44,19 @@ AACC incorporates four major advancements to enhance the detection of NPE fixes:
 ```
 📦 AACC/
 │── 📂 Dataset/
-# Labeled datasets for training, testing and evaluation
-│ ├── 📝 NPEPatches.json # commit patches and messages, stack trace and meta data of commits
+# Labeled datasets for training, testing, and evaluation
+│ ├── 📝 NPEPatches.json # commit patches and messages, stack trace, and metadata of commits
 │ ├── 📝 preprocessed.json # Cleaned and structured dataset
 │ ├── 📝 labeled_data # Human-annotated NPE-fixes and non-NPE commits
-│ │── 📂 Baselines_Evaluation/ # Comparative evaluation of AACC vs. existing approaches
+│ │── 📂 Baselines_Evaluation/ # Comparative evaluation of AACC vs SOTA approaches
 │ ├── 📜 models/ # Implementations of baseline models
-│ ├── 📜 performance_metrics/ # F1 scores, accuracy, and comparative results
-│ ├── 📜 evaluation_scripts/ # Python scripts for evaluation
+│ ├── 📜 performance_metrics/ # precision, recall F1 scores, accuracy, and comparative results
 │ │── 📂 LLMS/ # LLM-based classification models and components
 │ ├── 🤖 fine_tuned_models/ # Pre-trained models adapted for NPE classification
-│ ├── 📝 prompt_engineering/ # Strategies and examples for LLM-based classification
-│ ├── 📜 inference_scripts/ # Scripts to classify new commit patches
+│ ├── 📜 inference_scripts/ # Scripts to identify and classify new commit patches
 │ │── 📜 run_classification.py # Main script to run AACC classification
-│── 📜 requirements.txt # Required dependencies
-│── 📜 README.md # Project documentation
+│ │── 📜 requirements.txt # Required dependencies
+│ │── 📜 README.md # Project documentation
 ```
 
 ---
