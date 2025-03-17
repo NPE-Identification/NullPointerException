@@ -1,5 +1,3 @@
-
-
 # Replication package for paper "LLM-Based Identification of Null Pointer Exception Patches"
 
 ![AACC Proposed Approach](AACC%20Proposed%20Approach.png)
@@ -9,13 +7,11 @@ LLM-Based Identification of Null Pointer Exception Patches This repo uses Large 
 # Augmented Agentic Commit Classification (AACC)  
 ## Identifying and Classifying Null Pointer Exception (NPE) Fixes  
 
-![AACC Proposed Approach](AACC_Proposed_Approach.png)  
-
 ## 🚀 Overview  
 
 Null Pointer Exceptions (**NPEs**) are one of the primary causes of **software crashes** and **runtime errors**, making them a significant challenge for developers.  
 
-Existing approaches for detecting and classifying NPE-related fixes often suffer from:  
+Existing approaches for identifying and classifying NPE-related fixes often suffer from:  
 - **Noisy or irrelevant data**  
 - **Lack of contextual understanding**  
 - **Inefficient processing of large and imbalanced datasets**  
