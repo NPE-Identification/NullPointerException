@@ -2,7 +2,7 @@
 
 # Replication package for paper "Has My Code Been Stolen for Model Training? A Naturalness-Based Approach to Code Contamination Detection"
 
-![Overview](AACC Proposed Approach.png)
+![Overview](AACC Proposed Approach.PNG)
 
 LLM-Based Identification of Null Pointer Exception Patches This repo uses Large Language Models (LLMs) to identify and classify Null Pointer Exception (NPE) patches in code commits, combining contextual embeddings and AST features for automated NPE detection and fix classification in software development.
 
