@@ -101,7 +101,7 @@ This section provides an overview of the repository structure, including dataset
 
 ## Download Dataset
 
-Due to size limits, the dataset has been uploaded to Google Drive. You can download the dataset using the following link:
+Due to size limits, the dataset has been uploaded to the Google Drive. You can download the dataset using the link below:
 
 - [Download Dataset from Google Drive](https://drive.google.com/file/d/1PQ-7OXFEPbbS-mbG9dO2Fm6dcFSjpCug/view?usp=sharing)
   
