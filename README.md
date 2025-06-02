@@ -1,6 +1,6 @@
 # Replication package for paper "LLM-Based Identification of Null Pointer Exception Patches"
 
-![AACC Proposed Approach](AACC%20Proposed%20Approach.png)
+![AACC Proposed Approach](Overview.png)
 
 LLM-Based Identification of Null Pointer Exception Patches This repo uses Large Language Models (LLMs) to identify and classify Null Pointer Exception (NPE) patches in code commits, combining contextual embeddings and AST features for automated NPE fix Identification and classification in software development.
 
