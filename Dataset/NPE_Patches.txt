@@ -1,1 +1,2 @@
 https://drive.google.com/file/d/1PQ-7OXFEPbbS-mbG9dO2Fm6dcFSjpCug/view?usp=sharing
+This file includes commit patches and messages, stack traces, and metadata of commits that are relevant to NPE fixes.
