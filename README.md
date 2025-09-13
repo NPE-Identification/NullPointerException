@@ -57,6 +57,12 @@ AACC incorporates four major advancements to enhance the detection of NPE fixes:
 │ │── 📜 run_classification.py # Main script to run AACC classification
 │ │── 📜 requirements.txt # Required dependencies
 │ │── 📜 README.md # Project documentation
+│
+│── 📂 CaseStudy/
+│ ├── 📊 KeYword_Based.xlsx 
+│ ├── ⏱️ Submission Time.xlsx
+│ ├── 🔗 survey_link.txt 
+│ ├── 📑 apache_tomcat_commits_dataset.txt 
 ```
 
 ---
