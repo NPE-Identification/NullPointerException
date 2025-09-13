@@ -58,7 +58,7 @@ AACC incorporates four major advancements to enhance the detection of NPE fixes:
 │ │── 📜 requirements.txt # Required dependencies
 │ │── 📜 README.md # Project documentation
 │
-│── 📂 CaseStudy/
+│ |── 📂 CaseStudy/
 │ ├── 📊 KeYword_Based.xlsx 
 │ ├── ⏱️ Submission Time.xlsx
 │ ├── 🔗 survey_link.txt 
